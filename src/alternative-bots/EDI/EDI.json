@@ -1,0 +1,14 @@
+{
+  "name": "EDI",
+  "version": "1.0",
+  "authors": [
+    "Nathaniel"
+  ],
+  "description": "EDI loves weak enemies.",
+  "homepage": "",
+  "countryCodes": [
+    "ina"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
