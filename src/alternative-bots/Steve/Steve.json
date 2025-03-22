@@ -1,0 +1,14 @@
+{
+  "name": "Steve",
+  "version": "1.0",
+  "authors": [
+    "Nathaniel"
+  ],
+  "description": "He survives.",
+  "homepage": "",
+  "countryCodes": [
+    "ina"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 10.0"
+}
