@@ -1,0 +1,17 @@
+{
+  "name": "Made in China",
+  "version": "1.0",
+  "authors": [
+    "Kaindra",
+    "Peter",
+    "Nathaniel"
+  ],
+  "description": "A tank.",
+  "homepage": "",
+  "countryCodes": [
+    "us",
+    "dk"
+  ],
+  "platform": ".Net 6.0",
+  "programmingLang": "C# 10.0"
+}
