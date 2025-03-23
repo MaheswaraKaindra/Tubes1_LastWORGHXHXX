@@ -124,7 +124,11 @@ public class HariStyles : Bot
         SetTurnGunLeft(gunTurn);
 
         // Tembak sekuat tenaga (3 atau sampe energi abis)
-        SetFire(Math.Min(3, Energy));
+        if(Energy > 3){
+            SetFire(3);
+        } else {
+            Fire(Energy);
+        }
     }
 
     private void ResetScans()
@@ -138,21 +142,42 @@ public class HariStyles : Bot
 
     public override void OnHitByBullet(HitByBulletEvent e)
     {
-        // WAA Kaget
-        SetBack(100);
-        SetTurnRight(45);
+        MoveToLeastPopulatedSector();
     }
 
     public override void OnHitBot(HitBotEvent e)
     {
-        // Mundur Diagonal
-        SetBack(80);
-        SetTurnRight(60);
+        MoveToLeastPopulatedSector();
+    }
+
+    private void MoveToLeastPopulatedSector()
+    {
+        // Cari Sector dengan bot paling sedikit
+        int minCount = 9999;
+        int leastPopulatedSector = -1;
+        foreach (var kvp in sectors)
+        {
+            if (kvp.Value.Count < minCount)
+            {
+                minCount = kvp.Value.Count;
+                leastPopulatedSector = kvp.Key;
+            }
+        }
+
+        if (leastPopulatedSector != -1)
+        {
+            // Pergi ke tengah sektor
+            double targetAngle = -180 + SectorAngle * leastPopulatedSector + SectorAngle / 2;
+            double moveAngle = NormalizeAngle(targetAngle - Direction);
+            SetTurnRight(moveAngle);
+            SetForward(80); // Jalan 100 pixel
+        }
     }
 
     public override void OnHitWall(HitWallEvent e)
     {
-        // Ngga ngapa ngapain takut ngebug doang ini
+        // Ngga ngapa ngapain ini mah
+        return;
     }
 
     private double NormalizeAngle(double angle)
