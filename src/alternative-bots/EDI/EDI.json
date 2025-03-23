@@ -2,13 +2,15 @@
   "name": "EDI",
   "version": "1.0",
   "authors": [
-    "Nathaniel"
+    "Nathaniel",
+    "Peter",
+    "Wongsoredjo"
   ],
   "description": "EDI loves weak enemies.",
   "homepage": "",
   "countryCodes": [
     "ina"
   ],
-  "platform": ".Net 9.0",
+  "platform": ".Net 6.0",
   "programmingLang": "C# 10.0"
 }
