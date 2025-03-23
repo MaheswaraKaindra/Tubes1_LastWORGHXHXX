@@ -120,9 +120,13 @@ public class EDI : Bot
         int distance = random.Next(50, 151);
         SetTurnRight(turnAngle);
         if (random.Next(0, 2) == 0)
+        {
             SetForward(distance);
+        }
         else
+        {
             SetBack(distance);
+        }
     }
 
     // Helper methods.
