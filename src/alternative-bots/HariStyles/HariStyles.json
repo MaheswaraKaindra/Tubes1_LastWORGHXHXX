@@ -6,11 +6,11 @@
     "Kaindra",
     "Nathaniel"
   ],
-  "description": "Spray and Pray Demon, Watermelon Sugar High",
+  "description": "Spray and Pray Demon",
   "homepage": "",
   "countryCodes": [
     "ina"
   ],
-  "platform": ".Net 9.0",
+  "platform": ".Net 6.0",
   "programmingLang": "C# 10.0"
 }

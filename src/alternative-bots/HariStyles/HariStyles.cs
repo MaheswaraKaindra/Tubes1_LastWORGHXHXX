@@ -5,6 +5,16 @@ using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 using static System.Math;
 
+// --------------------------------------------------------------------------
+// Hari Styles
+// --------------------------------------------------------------------------
+// Barrages the sectors with the highest bot density.
+// When hit, runs away to the lowest populated sector.
+// We never learn we've been here before,
+// Why are we always stuck and running from
+// The bullets, the bullets?
+// --------------------------------------------------------------------------
+
 public class HariStyles : Bot
 {
     static void Main(string[] args) => new HariStyles().Start();
