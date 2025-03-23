@@ -66,7 +66,7 @@ public class HariStyles : Bot
             {
                 SprayAndPray();
                 ticksSinceLastScan++;
-                if (ticksSinceLastScan > 10)
+                if (ticksSinceLastScan > 3)
                 {
                     ResetScans();
                 }
@@ -92,7 +92,7 @@ public class HariStyles : Bot
         else
         {
             // Lock Cluster hingga seluruh musuh tidak terlihat di radar
-            if (DistanceTo(e.X, e.Y) < 1000)
+            if (DistanceTo(e.X, e.Y) < 1200)
                 ticksSinceLastScan = 0;
         }
     }
