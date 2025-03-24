@@ -71,9 +71,9 @@ Bot difokuskan untuk bertahan hidup:
 ## 👨‍💻 Author
 ### Tim Strategi Algoritma LASTWORGHXHXX 2025 - Kelas IF-2211
 
-Nathaniel Jonathan Rusli - 13523013
-
-Maheswara Bayu Kaindra - 13523015
-
-Peter Wongsoredjo - 13523039
+| Nama Lengkap               | NIM        |
+|----------------------------|------------|
+| Nathaniel Jonathan Rusli  | 13523013   |
+| Maheswara Bayu Kaindra    | 13523015   |
+| Peter Wongsoredjo          | 13523039   |
 
