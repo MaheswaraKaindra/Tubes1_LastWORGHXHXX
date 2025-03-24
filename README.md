@@ -1,4 +1,7 @@
-# 🚀 Robocode Tank Royale: Strategi Greedy
+# Implementasi Algoritma Greedy pada Pembuatan Bot Robocode Tank Royale
+
+![C#](https://img.shields.io/badge/Language-C%23-239120?logo=c-sharp&logoColor=white&labelColor=555555)
+![.NET 6.0](https://img.shields.io/badge/.NET-6.0-512BD4?logo=dotnet&logoColor=white&labelColor=555555)
 
 ## 📌 Deskripsi Singkat
 
