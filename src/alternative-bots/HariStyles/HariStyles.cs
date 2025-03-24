@@ -117,7 +117,7 @@ public class HariStyles : Bot
 
     private void SprayAndPray()
     {
-        // Osilasi Radar 45 derajat
+        // Osilasi Radar 30 derajat
         double radarTarget = targetAngle + (sweepRight ? SectorAngle / 2 : -SectorAngle / 2);
         SetTurnRadarLeft(NormalizeAngle(radarTarget - RadarDirection));
         sweepRight = !sweepRight;
